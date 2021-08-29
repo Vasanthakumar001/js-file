@@ -1,7 +1,8 @@
 var cacheName = 'hello-pwa';
 var filesToCache = [
-  'index.html',
-  'main.js'
+  '/',
+  '/index.ejs',
+  'https://github.com/lathaani/js-file/blob/8366f6176f62a1fa9bd5050ba581657ba6578ab0/PWA/main.js'
 ];
 
 /* Start the service worker and cache all of the app's content */
